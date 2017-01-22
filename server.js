@@ -1,6 +1,8 @@
 var express = require('express');
 var app = express();
 var PORT = process.env.PORT || 3000;
+//Heroku sets an environment variable 'process.env.PORT' and 
+//gives a port that you need to listen to
 
 var middleware = require('./middleware.js');
 
